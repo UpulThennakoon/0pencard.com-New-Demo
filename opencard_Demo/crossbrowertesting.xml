@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="5" parallel="tests">
+
+    <test verbose="2" preserve-order="true" name="C:/Users/upult/Desktop/opencard_Demo/src/test/java/testCases/AccountRegistrationTest.java">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+    <classes>
+        <class name="testCases.AccountRegistrationTest"><methods><include name="test"/></methods></class>
+    </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/upult/Desktop/opencard_Demo/src/test/java/testCases/AccountRegistrationTest.java">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testCases.AccountRegistrationTest"><methods><include name="test"/></methods></class>
+        </classes>
+    </test>
+</suite>
